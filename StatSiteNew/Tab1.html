@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>ТЕСТИРУЕМ CSS ТАБЛИЦ</title>
+		<style>
+.table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #dddddd;
+	border-collapse: collapse; 
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+.table td {
+	border: 1px solid #dddddd;
+	padding: 5px;
+}
+
+//Стандартная таблица с зеброй
+
+.table1{
+	border: 1px solid #eee;
+	table-layout: fixed;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.table1 th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+.table1 td{
+	padding: 5px 10px;
+	border: 1px solid #eee;
+	text-align: left;
+}
+.table1 tbody tr:nth-child(odd){
+	background: #fff;
+}
+.table1 tbody tr:nth-child(even){
+	background: #F7F7F7;
+}
+
+        </style>
+	</head>
+	<body>
+		<p>Привет, мир!</p>
+		
+<table class="table">
+	<thead>
+		<tr>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>ZIP</th>
+			<th>Birthday</th>
+			<th>Points</th>
+			<th>Average</th>
+			<th>Amount</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Gloria</td>
+			<td>Reeves</td>
+			<td>67439</td>
+			<td>10/18/1985</td>
+			<td>4</td>
+			<td>0.1</td>
+			<td>$50</td>
+		</tr>
+		<tr>
+			<td>Gloria</td>
+			<td>Reeves</td>
+			<td>67439</td>
+			<td>10/18/1985</td>
+			<td>4</td>
+			<td>0.1</td>
+			<td>$50</td>
+		</tr>
+		<tr>
+			<td>Gloria</td>
+			<td>Reeves</td>
+			<td>67439</td>
+			<td>10/18/1985</td>
+			<td>4</td>
+			<td>0.1</td>
+			<td>$50</td>
+		</tr>		
+	</tbody>
+</table>		
+		
+	</body>
+</html>
+
+

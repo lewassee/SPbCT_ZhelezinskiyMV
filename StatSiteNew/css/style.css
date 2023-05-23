@@ -1,0 +1,22 @@
+﻿.nav {
+    padding-left: 0;
+  }
+  
+  .nav__item {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    font-family: Verdana;
+    font-size: 15px;
+    background-color: #F1EEF7;
+    border: 1px solid silver;
+  }
+  
+  .nav__item a {
+    text-decoration: none;
+  }
+  
+  .nav__item:hover {
+    background-color: #8D93EF;
+  }
+  
